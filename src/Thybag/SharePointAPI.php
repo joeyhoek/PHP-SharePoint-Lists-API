@@ -1137,7 +1137,7 @@ class SharePointAPI {
         <GetItem xmlns="http://schemas.microsoft.com/sharepoint/soap/">
             <Url>'.$item_url.'</Url>
         </GetItem>
-    ';
+    	';
         $xmlvar = new \SoapVar($CAML, XSD_ANYXML);
         // Attempt to run operation
         try {
